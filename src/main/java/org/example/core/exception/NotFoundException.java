@@ -1,4 +1,5 @@
 package org.example.core.exception;
 
-public class NotFoundException {
+public final class NotFoundException extends AppException {
+    public NotFoundException(String message) { super(message); }
 }

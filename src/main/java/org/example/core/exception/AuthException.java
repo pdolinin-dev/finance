@@ -1,4 +1,5 @@
 package org.example.core.exception;
 
-public class AuthException {
+public final class AuthException extends AppException {
+    public AuthException(String message) { super(message); }
 }
